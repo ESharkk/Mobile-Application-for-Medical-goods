@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="277dp"
+                android:layout_height="277dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="62dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="66dp"
+                android:background="#000011"
+                android:padding="2dp"
+                app:srcCompat="@drawable/ibuprofen_fortedoz" />
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="  Ibuprofen Forte Doz"
+                android:textSize="28sp"
+                android:textColor="#013220"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Price"
+                android:layout_width="238dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="  11.90 zl"
+                android:textColor="#006400"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/addToCartButton"
+                android:layout_width="136dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="To Cart" />
+
+
+        </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
